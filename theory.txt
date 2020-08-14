@@ -1,0 +1,27 @@
+1) Big O Notation - измеряет скорость работы алгоримта...Как изменяется время работы от входных параметров. 
+
+f(n) could be linear (f(n) = n)
+f(n) could be quadratic (f(n) = n^2)
+f(n) could be constant (f(n) = 1)
+f(n) could be smth different
+
+2) Скорость измеряется в количетсве операций алгоритма
+3) Constants don't matter: 
+O(2n) => O(n)
+O(1000) => O(1)
+O(13n^2) => O(n^2)
+
+4) Time complexity:
+
+Runtime of an algorithm based on inputs increases
+
+5) Space complexity: ~= amount of memory it takes
+
+Space complexity in JS:
+
+- Most primitives(booleans, numbers, undefined, null) are constant space
+
+let i = 1000000; O(1)
+
+- Strings, arrays, objects O(n);
+
